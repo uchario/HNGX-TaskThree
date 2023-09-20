@@ -1,0 +1,68 @@
+.main {
+    height: 100vh;
+    background-image: url(../assets/hero.png);
+    background-size: cover;
+    padding: 20rem 0 0 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 4rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    background-color: #495057;
+    color: #fff;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input {
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 0.2rem transparent;
+    font-size: 1.5rem;
+    color: #495057;
+}
+
+input:focus {
+    border: solid 0.2rem #74c0fc;
+}
+
+.form button {
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: solid 0.1rem transparent;
+    background-color: #228be6;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.form button:hover {
+    background-color: #228be6aa;
+}
+
+::placeholder {
+    color: #000;
+}
+
+.form-error {
+    color: #fa5252;
+}
+
+.password {
+    position: relative;
+}
+
+.password input {
+    width: 100%;
+}

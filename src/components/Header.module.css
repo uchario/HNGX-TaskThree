@@ -1,0 +1,105 @@
+.header {
+    width: 100vw;
+    height: 60rem;
+    background: url('../assets/hero.png');
+    background-size: cover;
+    color: #fff;
+    padding: 2rem 8rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.home:link,
+.home:visited {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-decoration: none;
+    color: #BE123C;
+}
+
+.home:hover,
+.home:active {
+    text-decoration: underline;
+}
+
+.signin {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+}
+
+input[type=search] {
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: solid 0.1rem #fff;
+    background-color: transparent;
+    border-radius: 0.7rem;
+    color: #fff;
+    width: 40vw;
+}
+
+input::placeholder {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.hero-item:not(:last-child) {
+    margin-bottom: 1.6rem;
+}
+
+.heading-primary {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+}
+
+.rating {
+    display: flex;
+    gap: 3rem;
+}
+
+.imdb, .rotten {
+    display: flex;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-text {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.btn-play {
+    background-color: #BE123C;
+    border: solid 0.1rem transparent;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    padding: 0.6rem 1.6rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
