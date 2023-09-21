@@ -1,8 +1,24 @@
-# React + Vite
+# Drag and Drop Image Gallery using ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the stage three front end task for HNGx
 
-Currently, two official plugins are available:
+## Installation
+To install, use npm:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`npm install`
+
+## Usage
+Login using the underlisted credentials:
+- username - `user@example.com`
+- password - `1Password`
+
+Drag and Drop Feature
+- Each image has a `tag` appended to them
+- Drag the image from the tag and move around to place in a different position
+
+Search Functionality
+- Search for a `tag` to filter the images based on tag
+
+Logout
+- Click on the logout button to logout the user
+- The image gallery cannot be accessed without logging in
