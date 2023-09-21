@@ -32,7 +32,7 @@ const Signin = () => {
         .then((userCredential) => {
             console.log(userCredential);
             localStorage.setItem('user', userCredential);
-            navigate('/gallery');
+            navigate('gallery');
         })
         .catch((error) => {
             console.log(error);
