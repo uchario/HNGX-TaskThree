@@ -11,7 +11,14 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 10rem; */
+    align-items: center;
+}
+
+@media (max-width: 72em) {
+    .nav {
+        flex-direction: column;
+        gap: 3rem;
+    }
 }
 
 .home:link,
