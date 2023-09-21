@@ -44,7 +44,7 @@ const Signin = () => {
 
     const emailChangeHandler = (event) => {
         setError(false);
-        setEmail(event.target.value);
+        setEmail(event.target.value.toLowerCase());
     }
 
     const passwordChangeHandler = (event) => {
